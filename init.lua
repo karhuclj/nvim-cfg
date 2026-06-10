@@ -22,7 +22,6 @@ vim.g.maplocalleader = " "
 vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
 end)
---vim.keymap.set(ALL_MODES, "<F5>", "<CMD>update<CR> <BAR> <CMD>source $MYVIMRC<CR>", { buffer = true })
 
 vim.o.undofile = true
 vim.keymap.set(ALL_MODES, "<C-s>", "<CMD>wa<CR>")
@@ -64,7 +63,6 @@ vim.pack.add({ "https://github.com/projekt0n/github-nvim-theme" })
 vim.pack.add({ "https://github.com/rktjmp/lush.nvim" })
 vim.pack.add({ "https://github.com/ntk148v/habamax.nvim" })
 
---comment
 --vim.cmd.colorscheme("vscode")
 --vim.cmd.colorscheme("github_dark_default")
 vim.cmd.colorscheme("habamax.nvim")
